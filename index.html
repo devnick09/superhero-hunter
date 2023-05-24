@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Hero Hunter</title>
+   <!-- Crypto JS Library to get hash value for api end-point-->
+   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"
+   integrity="sha512-E8QSvWZ0eCLGk4km3hxSsNmGWbLtSCSUcewDQPQWZF6pEU8GlT8a5fF32wOl1i8ftdMhssTrF/OhyGWwonTcXA=="
+   crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <!-- Font Aswsome Library -->
+   <script src="https://kit.fontawesome.com/7e64fbe894.js" crossorigin="anonymous"></script>
+    <!-- CSS Linked  -->
+   <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+  
+  <div class = "container">
+    <div class = "hero-wrapper">
+      <div class = "hero-search">
+        <!-- Navbar -->
+        <div class="navbar">
+            <h2 class = "title">Super Hero Hunter</h2>
+            <a href="/favorite.html">My Favorite Hero</a>
+        </div>
+        <!-- Search-bar -->
+        <div class = "hero-search-box">
+            <input type = "text" class = "search-control" placeholder="Enter Hero Name" id = "search-input">
+            <button type = "submit" class = "search-btn btn" id = "search-btn">
+                <i class = "fas fa-search"></i>
+            </button>
+        </div>
+      </div>
+
+    <!-- Character Card -->
+      <div class = "hero-result">
+        <h2 class = "title">Your Search Results:</h2>
+        <div id= "hero">
+          <!-- hero item -->
+          <!-- <div class = "hero-item">
+            <div class = "hero-img">
+              <img src = "hero.jpg" alt = "hero">
+            </div>
+            <div class = "hero-name">
+              <h3>Marvel Man</h3>
+              <a href = "#" class = "info-btn">Get heroInfo</a>
+            </div>
+          </div> -->
+          <!-- end of hero item -->
+        </div>
+      </div>
+
+    <!-- Character Info Modal -->
+      <div class = "hero-details">
+        <!-- heroInfo close btn -->
+        <button type = "button" class = "btn heroInfo-close-btn" id = "heroInfo-close-btn">
+          <i class = "fas fa-times"></i>
+        </button>
+
+        <!-- hero content -->
+        <div class = "hero-details-content">
+          <!-- <h2 class = "heroInfo-title">heros Name Here</h2>
+          <p class = "heroInfo-category">Category Name</p>
+          <div class = "heroInfo-instruct">
+            <h3>Instructions:</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo blanditiis quis accusantium natus! Porro, reiciendis maiores molestiae distinctio veniam ratione ex provident ipsa, soluta suscipit quam eos velit autem iste!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet aliquam voluptatibus ad obcaecati magnam, esse numquam nisi ut adipisci in?</p>
+          </div>
+          <div class = "heroInfo-hero-img">
+            <img src = "food.jpg" alt = "">
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+<!-- addded js file for functionality -->
+  <script src = "index.js"></script>
+</body>
+</html>
