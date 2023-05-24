@@ -1,4 +1,4 @@
-Super Hero Hunter (Vanilla JS)
+<h3>Super Hero Hunter (Vanilla JS)</h3>
 
 It is an API project built with vanilla JS and I've used MARVEL API in it.
 Features
